@@ -1,8 +1,5 @@
-console.log("meh56")
-
-const branch =()=> {
-    console.log('branch')
-}
-
+const express = require('express')
+const cors = require('cors')
+const app = express()
 
 
