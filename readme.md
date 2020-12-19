@@ -13,7 +13,7 @@ pip install foobar
 ## Usage
 
 ```Node js and React
-
+    express, babel
 ```
 
 ## Contributing
