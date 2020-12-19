@@ -1,6 +1,6 @@
-# Foobar
+# Pokereact
 
-Foobar is a Python library for dealing with word pluralization.
+This is our pokereact project.
 
 ## Installation
 
@@ -12,18 +12,12 @@ pip install foobar
 
 ## Usage
 
-```python
-import foobar
+```Node js and React
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
 ```
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+Contribution by aymene and mehdi
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Efrei paris project
