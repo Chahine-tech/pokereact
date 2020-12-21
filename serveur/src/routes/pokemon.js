@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 
 
-const pokemons = require('../data/pokemons.json')
+const pokemons = require('../data/pokemon.json')
 
 router.get('/', (req, res) => {
     res.json(pokemons)
@@ -12,8 +12,6 @@ router.get('/', (req, res) => {
 router.get("/:id", (req, res) => {
   const pokemon = pokemons.find(c => c.numero == parseInt(req.params.numero))
     if(!pokemon) return res.status(404).send('Pokemon not found')
-
-
 
     res.send(pokemon)
 });
