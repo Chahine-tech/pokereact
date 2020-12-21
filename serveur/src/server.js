@@ -11,6 +11,6 @@ app.use(morgan('tiny'))
 
 app.listen(arg[2], () =>  {
     console.log(
-      "Server is listening on http://localhost:"+arg[2]
+        `Server is listening on http://localhost:${arg[2]}`
     );
   });
