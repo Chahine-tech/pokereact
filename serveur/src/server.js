@@ -1,8 +1,13 @@
 const express = require('express')
+const cors = require('cors')
 const app = express()
 const arg = process.argv
+const pokemons = require('./routes/pokemon')
+const morgan = require('morgan')
 
-const pokemons = require('./routes/pokemons')
+app.use('/pokemon', pokemons)
+app.use(cors())
+app.use(morgan('tiny'))
 
 app.listen(arg[2], () =>  {
     console.log(
