@@ -1,0 +1,10 @@
+.pokedex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main {
+    background-color:	black;
+}
+

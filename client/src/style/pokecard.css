@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+.pokecard {
+    background-color: #292929;
+    color:white;
+    margin: 20px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+
+}
+
+.number {
+    font-size: 15px;
+    font-family: 'Courgette', cursive;
+}
+
+.title {
+    font-size: 20px;
+    font-family: 'Jura', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover{
+    cursor: pointer;
+    color: grey;
+}
+
+
+.pokecard:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px #000000;
+    
+}
